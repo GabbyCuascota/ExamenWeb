@@ -14,24 +14,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/futbol/src/main.ts">
+      <file leaf-file-name="Equipo_Futbol.schema.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/futbol/src/Equipo_Futbol/Equipo_Futbol.schema.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="234">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jugador.schema.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/futbol/src/Jugador/jugador.schema.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Equipo_Futbol.pipe.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/futbol/src/PipeEquipoFutbol/Equipo_Futbol.pipe.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#60#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jugador.pipe.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/futbol/src/PipeJugador/Jugador.pipe.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="peticionErronea.exception.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/futbol/src/excepciones/peticionErronea.exception.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="peticionErronea.exception1.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/futbol/src/excepciones/peticionErronea.exception1.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/futbol/src/main.ts" />
+        <option value="$PROJECT_DIR$/futbol/src/Equipo_Futbol/Equipo_Futbol.schema.ts" />
+        <option value="$PROJECT_DIR$/futbol/src/Jugador/jugador.schema.ts" />
+        <option value="$PROJECT_DIR$/futbol/src/excepciones/peticionErronea.exception1.ts" />
+        <option value="$PROJECT_DIR$/futbol/src/excepciones/peticionErronea.exception.ts" />
+        <option value="$PROJECT_DIR$/futbol/src/PipeEquipoFutbol/Equipo_Futbol.pipe.ts" />
+        <option value="$PROJECT_DIR$/futbol/src/PipeJugador/Jugador.pipe.ts" />
       </list>
     </option>
   </component>
@@ -78,6 +139,34 @@
               <item name="futbol" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ExamenWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="futbol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Equipo_Futbol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamenWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="futbol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="excepciones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamenWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="futbol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Jugador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamenWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="futbol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PipeEquipoFutbol" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -94,6 +183,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/futbol/node_modules/typescript/lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,17 +209,18 @@
       <updated>1527884564354</updated>
       <workItem from="1527884565765" duration="101000" />
       <workItem from="1527884687693" duration="19000" />
-      <workItem from="1527884751280" duration="552000" />
+      <workItem from="1527884751280" duration="1643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="672000" />
+    <option name="totallyTimeSpent" value="1763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3433584" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -162,6 +253,54 @@
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/futbol/src/Equipo_Futbol/Equipo_Futbol.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/futbol/src/Jugador/jugador.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/futbol/src/excepciones/peticionErronea.exception.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/futbol/src/excepciones/peticionErronea.exception1.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/futbol/src/PipeEquipoFutbol/Equipo_Futbol.pipe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/futbol/src/PipeJugador/Jugador.pipe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
