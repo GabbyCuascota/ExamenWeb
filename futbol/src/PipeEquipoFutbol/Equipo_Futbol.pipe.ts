@@ -3,7 +3,7 @@ import * as Joi from 'joi';
 import {PeticionErroneaException} from "../excepciones/peticionErronea.exception";
 
 @Injectable()
-export  class SistemaoperativoPipe {
+export  class Equipo_FutbolPipe {
     constructor (private readonly _schema){
 
     }

@@ -4,7 +4,7 @@ import {PeticionErroneaException1} from "../excepciones/peticionErronea.exceptio
 
 
 @Injectable()
-export class AplicacacionPipe{
+export class JugadorPipe{
 
     constructor (private readonly _schema){
 
