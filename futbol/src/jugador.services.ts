@@ -1,16 +1,22 @@
 import {Injectable} from "@nestjs/common";
+import {JugadorController} from "./jugador.controller";
 
 @Injectable()
 export class JugadorServices{
     jugador : Jugadores [] = [];
 
-    crear_app(App:Jugadores): Jugadores{
-        this.jugador.push(App);
-        return App
+    crearJugador(Jug:Jugadores): Jugadores{
+        this.jugador.push(Jug);
+        return Jug
     }
 
-    mostrar_app():Jugadores []{
+    mostrarJugador():Jugadores []{
         return this.jugador;
+    }
+    updateJugador(Jug:Jugadores): Jugadores{
+        this.jugador.pop();
+        this.jugador.push(Jug);
+        return Jug;
     }
 }
 export interface Jugadores {

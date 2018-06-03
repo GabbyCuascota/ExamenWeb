@@ -19,15 +19,15 @@ export class JugadorController {
 
     constructor (private _jugadorervices: JugadorServices){
     }
-    @Get("Aplicacion")mostrarAplicacion(@Res() response){
-        const app = this._jugadorervices.mostrar_app();
-        return response.send(app);
+    @Get("Jugador")mostrarJugador(@Res() response){
+        const jugador = this._jugadorervices.mostrarJugador();
+        return response.send(jugador);
     }
 
-    @Post('crearApp') crearAPP(@Body(new JugadorPipe(JUGADOR_SCHEMA))
-                                   nuevoapp){
-        const appNuevo =this._jugadorervices.crear_app(nuevoapp);
-        return nuevoapp;
+    @Post('crearJugador') crearJugador(@Body(new JugadorPipe(JUGADOR_SCHEMA))
+                                   nuevoJugador){
+        const jugadorNuevo =this._jugadorervices.crearJugador(nuevoJugador);
+        return nuevoJugador;
     }
 
     @Get(':nombre')
@@ -37,8 +37,8 @@ export class JugadorController {
     }
 
     @Put(':nombre')
-    editarUno(@Param(JUGADOR_SCHEMA.nombre) nombre, @Body(new JugadorPipe(JUGADOR_SCHEMA)) updateApp, @Req() request,
+    editarUno(@Param(JUGADOR_SCHEMA.nombre) nombre, @Body(new JugadorPipe(JUGADOR_SCHEMA)) updateJugador, @Req() request,
               @Res() response) {
-        return response.send(updateApp);
+        return response.send(updateJugador);
     }
 }

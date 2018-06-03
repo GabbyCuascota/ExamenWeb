@@ -8,7 +8,7 @@ export class AutorizacionController{
 
     usuario = {
         usuario: 'gabrielacuascota',
-        password: 1720437670,
+        password: 12345678910,
     };
 
 
@@ -50,7 +50,7 @@ export class AutorizacionController{
         if (existeCookie) {
             response.cookie(parametros.nombreCookie, parametros.valorCookie)
             return response.send({
-                mensaje: 'Ha salido del sistema'
+                mensaje: 'Usted salio del sistema'
             })
         } else {
             return response
