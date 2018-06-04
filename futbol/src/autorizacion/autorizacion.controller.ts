@@ -19,7 +19,7 @@ export class AutorizacionController{
             nombreCookie: 'token',
             valorCookie: this.usuario.usuario,
         };
-        if(usuario==this.usuario.usuario&&password==this.usuario.password){
+        if(usuario==this.usuario.usuario && password == this.usuario.password){
             response.cookie(parametros.nombreCookie, parametros.valorCookie);
             return response.send({
                 parametros,
@@ -27,12 +27,9 @@ export class AutorizacionController{
             })
         } else {
             throw new PeticionErroneaException(
-                {
-                    error: error,
-                    mensaje: 'Los datos ingresados estan incorrectos'
-                },
-                10
-            );
+                'No se puede iniciar Sesion, datos de ingreso invalidos',
+                error,
+                10)
         }
 
     }
