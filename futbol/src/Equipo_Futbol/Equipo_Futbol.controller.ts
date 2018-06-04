@@ -8,19 +8,9 @@ import {Equipo_futbolPipe} from "./Equipo_Futbol.pipe";
 
 @Controller('Equipo')
 export class Equipo_FutbolController {
-    /*equipo_futbol = {
-        nombre: String,
-        liga: String,
-        fechaCreacion: Date(),
-        numeroCopasInternacionales: Number,
-        campeonActual: Boolean,
-    };
-    equipos_futbol = [];
-*/
     constructor(private _equipo_futbolservice: Equipo_FutbolService) {
     }
 
-    // @HttpCode(202)
     @Get('listarTodos')
     mostrarEquipos(
         @Res() response
@@ -30,8 +20,8 @@ export class Equipo_FutbolController {
     }
 
     @UsePipes(new Equipo_futbolPipe(Equipo_Futbol_schema))
-    @Post('crearEquipos')
-    crearEquipos(
+    @Post(':id')
+    id(
         @Body(new Equipo_futbolPipe(Equipo_Futbol_schema))
             nuevoEquipo
     ) {
@@ -66,10 +56,10 @@ export class Equipo_FutbolController {
     @Put(':id')
     editarUno(
         @Param() id,
-        @Body() updateJugador,
+        @Body() UpdateEquipo,
         @Req() request,
         @Res() response) {
-        const updateJug = this._equipo_futbolservice.editarUno(id.id, updateJugador.nombre, updateJugador.liga, updateJugador.fechaCreacion, updateJugador.numeroCopasInternacionales, updateJugador.campeonActual);
+        const updateJug = this._equipo_futbolservice.editarUno(id.id, UpdateEquipo.nombre, UpdateEquipo.liga, UpdateEquipo.fechaCreacion, UpdateEquipo.numeroCopasInternacionales, UpdateEquipo.campeonActual);
         if (updateJug) {
             return response.send(updateJug);
         } else {

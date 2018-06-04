@@ -12,14 +12,15 @@ export class JugadorController {
     constructor(private _jugadorervices: JugadorServices) {
     }
 
-    @Get("listarTodos") mostrarJugador(@Res() response) {
+    @Get("listarTodos") mostrarJugador(
+        @Res() response) {
         const jugador = this._jugadorervices.mostrarJugador();
         return response.send(jugador);
     }
 
     @UsePipes(new JugadorPipe(JUGADOR_SCHEMA))
-    @Post('crearJugador')
-    crearJugador(
+    @Post(':id')
+    id(
         @Body(new JugadorPipe(JUGADOR_SCHEMA))
             nuevoJugador) {
         const jugadorNuevo = this._jugadorervices.crearJugador(nuevoJugador);
