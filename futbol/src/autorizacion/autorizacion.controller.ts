@@ -1,6 +1,6 @@
 import {Body, Controller, Post, Req, Res} from "@nestjs/common";
 import {error} from "util";
-import {PeticionErroneaException} from "./excepciones/peticionErronea.exception";
+import {PeticionErroneaException} from "../excepciones/peticionErronea.exception";
 
 
 @Controller('Autorizacion')
@@ -10,7 +10,6 @@ export class AutorizacionController{
         usuario: 'gabrielacuascota',
         password: 12345678910,
     };
-
 
     @Post('iniciarSesion')
     iniciarSesion(@Req() request,
@@ -26,11 +25,10 @@ export class AutorizacionController{
                 parametros,
                 mensaje: 'ok'
             })
-
         } else {
             throw new PeticionErroneaException(
                 {
-                    erorr: error,
+                    error: error,
                     mensaje: 'Los datos ingresados estan incorrectos'
                 },
                 10
@@ -38,7 +36,6 @@ export class AutorizacionController{
         }
 
     }
-
     @Post('cerrarSesion')
     cerrarSesion(@Req() request,
                  @Res() response){

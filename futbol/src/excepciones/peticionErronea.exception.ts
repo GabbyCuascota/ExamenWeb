@@ -2,14 +2,18 @@ import {HttpException, HttpStatus} from "@nestjs/common";
 
 
 export class PeticionErroneaException extends HttpException {
+    constructor(private _mensaje,
+                private _detalle,
+                private _nivelError) {
 
-    constructor(private readonly _mensaje,
-                private readonly _nivelError) {
-        super({
-            mensaje: 'Peticion erronea',
-            statusCode: HttpStatus.BAD_REQUEST,
-            nivelError: _nivelError,
-            detalle: _mensaje
-        }, HttpStatus.NOT_FOUND);
+        super(
+            {
+                mensaje: _mensaje,
+                detalle: _detalle,
+                nivelError: _nivelError,
+                status: HttpStatus.BAD_REQUEST
+            },
+            HttpStatus.BAD_REQUEST
+        );
     }
 }
