@@ -13,7 +13,8 @@ export class AutorizacionController{
 
     @Post('iniciarSesion')
     iniciarSesion(@Req() request,
-                  @Res() response, @Body("usuario") usuario:string,
+                  @Res() response,
+                  @Body("usuario") usuario:string,
                   @Body("password") password:number){
         const parametros = {
             nombreCookie: 'token',

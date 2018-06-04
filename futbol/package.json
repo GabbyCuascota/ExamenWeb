@@ -25,6 +25,7 @@
     "@nestjs/testing": "^5.0.0",
     "@nestjs/websockets": "^5.0.0",
     "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
     "express-joi": "^0.3.1",
     "joi": "^13.3.0",
     "parser": "^0.1.4",
